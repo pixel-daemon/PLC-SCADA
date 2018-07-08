@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2017, 7:32:13 PM
+    Author     : Rahul
+*/
+.cb{
+	-fx-background-image: url("offcbf2.jpg");
+	-fx-background-size:cover;
+}
+.root{
+	-fx-background-color: #fff;
+}
+.apfc{
+	-fx-background-image: url("onapfc.jpg");
+	-fx-background-size:cover;
+
+}
+.busCoupler{
+	-fx-background-image: url("onbc1.jpg");
+	-fx-background-size:cover;
+}

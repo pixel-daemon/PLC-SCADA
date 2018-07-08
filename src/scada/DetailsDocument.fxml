@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="609.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scada.DetailsController">
+    <children>
+        <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16" minWidth="69" />
+      <ToggleButton fx:id="onoff" layoutX="547.0" layoutY="518.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="77.0" text="OFF" />
+      <Label layoutX="14.0" layoutY="46.0" prefHeight="50.0" prefWidth="128.0" styleClass="row-header-cell" text="   Current(Ampere) " />
+      <Label layoutX="14.0" layoutY="120.0" prefHeight="50.0" prefWidth="128.0" styleClass="row-header-cell" text="   Line Voltage (Volts)" />
+      <Label layoutX="14.0" layoutY="279.0" prefHeight="44.0" prefWidth="128.0" styleClass="row-header-cell" text="   Active Power(kWatt)" />
+      <TableView fx:id="ytable1" layoutX="313.0" layoutY="35.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="yi" prefWidth="154.0" text="Y" />
+         </columns>
+      </TableView>
+      <TableView fx:id="rtable1" layoutX="157.0" layoutY="35.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="ri" prefWidth="154.0" text="R" />
+         </columns>
+      </TableView>
+      <TableView fx:id="btable1" layoutX="469.0" layoutY="35.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="bi" prefWidth="154.0" text="B" />
+         </columns>
+      </TableView>
+      <TableView fx:id="rtable2" layoutX="157.0" layoutY="107.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="rl" prefWidth="154.0" text="R-Y" />
+         </columns>
+      </TableView>
+      <TableView fx:id="ytable2" layoutX="313.0" layoutY="107.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="yl" prefWidth="154.0" text="Y-B" />
+         </columns>
+      </TableView>
+      <TableView fx:id="btable2" layoutX="469.0" layoutY="107.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="bl" prefWidth="154.0" text="R-B" />
+         </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="191.0" prefHeight="50.0" prefWidth="128.0" styleClass="row-header-cell" text="   Phase Voltage (Volts)" />
+      <TableView fx:id="rtable3" layoutX="157.0" layoutY="180.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="rph" prefWidth="154.0" text="R-N" />
+         </columns>
+      </TableView>
+      <TableView fx:id="ytable3" layoutX="313.0" layoutY="180.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="yph" prefWidth="154.0" text="Y-N" />
+         </columns>
+      </TableView>
+      <TableView fx:id="btable3" layoutX="469.0" layoutY="180.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="bph" prefWidth="154.0" text="B-N" />
+         </columns>
+      </TableView>
+      <TableView fx:id="rtable4" layoutX="157.0" layoutY="256.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="rpo" prefWidth="154.0" text="R" />
+         </columns>
+      </TableView>
+      <TableView fx:id="btable4" layoutX="469.0" layoutY="256.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="bpo" prefWidth="154.0" text="B" />
+         </columns>
+      </TableView>
+      <TableView fx:id="ytable4" layoutX="313.0" layoutY="256.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="ypo" prefWidth="154.0" text="Y" />
+         </columns>
+      </TableView>
+      <TableView fx:id="ytable5" layoutX="313.0" layoutY="330.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="ypf" prefWidth="154.0" text="Y" />
+         </columns>
+      </TableView>
+      <TableView fx:id="btable5" layoutX="469.0" layoutY="330.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="bpf" prefWidth="154.0" text="B" />
+         </columns>
+      </TableView>
+      <TableView fx:id="rtable5" layoutX="157.0" layoutY="330.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="rpf" prefWidth="154.0" text="R" />
+         </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="347.0" prefHeight="44.0" prefWidth="128.0" styleClass="row-header-cell" text="   Power Factor" />
+      <Label layoutX="14.0" layoutY="413.0" prefHeight="44.0" prefWidth="128.0" styleClass="row-header-cell" text="   Energy (kWh)" />
+      <TableView fx:id="rtable6" layoutX="157.0" layoutY="405.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="re" prefWidth="154.0" text="R" />
+         </columns>
+      </TableView>
+      <TableView fx:id="btable6" layoutX="469.0" layoutY="405.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="be" prefWidth="154.0" text="B" />
+         </columns>
+      </TableView>
+      <TableView fx:id="ytable6" layoutX="313.0" layoutY="405.0" prefHeight="61.0" prefWidth="156.0">
+         <columns>
+            <TableColumn fx:id="ye" prefWidth="154.0" text="Y" />
+         </columns>
+      </TableView>
+      <Button fx:id="closeButton" layoutX="331.0" layoutY="507.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="61.0" prefWidth="122.0" text="Close" />
+      <Button fx:id="graphButton" layoutX="157.0" layoutY="518.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="77.0" text="Graph" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:id="rootPane" prefHeight="937.0" prefWidth="1580.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scada.FXMLDocumentController">
+   <content>
+      <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1094.0" prefWidth="1942.0" styleClass="root">
+         <children>
+            <Pane fx:id="group1" layoutX="22.0" layoutY="355.0" prefHeight="41.0" prefWidth="434.0">
+               <children>
+                  
+                              <Pane prefHeight="41.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="40.0" layoutY="2.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="80.0" layoutY="2.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="125.0" layoutY="2.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="170.0" layoutY="2.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="215.0" layoutY="2.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="260.0" layoutY="2.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="305.0" layoutY="2.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="350.0" layoutY="2.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="395.0" layoutY="2.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+               </children>
+            </Pane>
+            <Line endX="1510.0" layoutX="35.0" layoutY="307.0" />
+            <Line endX="50.0" layoutX="10.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="50.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="90.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="135.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="180.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="225.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="270.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="315.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="360.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="405.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="505.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="550.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="595.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="640.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="685.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="785.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="830.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="875.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="920.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="965.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1007.0" layoutY="332.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1110.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1155.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1200.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1245.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1290.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1335.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1380.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1425.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1470.0" layoutY="331.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="315.0" layoutY="281.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="200.0" layoutY="281.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="595.0" layoutY="281.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="715.0" layoutY="281.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1155.0" layoutY="281.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1265.0" layoutY="281.0" rotate="90.0" />
+            <Pane fx:id="group3" layoutX="517.0" layoutY="357.0">
+               <children>
+                  <Pane layoutX="370.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="280.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="415.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="90.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="180.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="460.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="135.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="325.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="502.0" layoutY="1.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="45.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="group2" layoutX="1122.0" layoutY="357.0">
+               <children>
+                  <Pane prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="45.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="90.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="135.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="180.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="225.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="270.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="315.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="360.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="410.0" layoutY="2.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="mccb" layoutX="212.0" layoutY="221.0">
+               <children>
+                  <Pane layoutX="116.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="956.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+      
+                  
+                  <Pane layoutX="1065.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="396.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="516.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+               </children>
+            </Pane>
+            <Line endX="120.0" layoutX="-25.0" layoutY="456.0" rotate="90.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Line>
+            <Line endX="50.0" layoutX="50.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="90.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="135.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="180.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="225.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="270.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="315.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="360.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="405.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="505.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="550.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="595.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="640.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="685.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="830.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="875.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="920.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="965.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1007.0" layoutY="417.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1155.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1200.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1245.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1290.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1335.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1380.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1425.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1470.0" layoutY="416.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="200.0" layoutY="196.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="315.0" layoutY="196.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="595.0" layoutY="196.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="715.0" layoutY="196.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1155.0" layoutY="196.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1265.0" layoutY="196.0" rotate="90.0" />
+            <Circle fill="#1f93ff00" layoutX="225.0" layoutY="163.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1f93ff00" layoutX="225.0" layoutY="155.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1f93ff00" layoutX="740.0" layoutY="154.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1f93ff00" layoutX="740.0" layoutY="162.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1f93ff00" layoutX="341.0" layoutY="158.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <CubicCurve controlX1="-5.0" controlX2="5.0" controlY1="-20.0" controlY2="20.0" endX="5.0" fill="#1f93ff01" layoutX="341.0" layoutY="158.0" startX="-5.0" stroke="BLACK" />
+            <CubicCurve controlX1="-5.0" controlX2="5.0" controlY1="-20.0" controlY2="20.0" endX="5.0" fill="#1f93ff01" layoutX="620.0" layoutY="158.0" startX="-5.0" stroke="BLACK" />
+            <Circle fill="#1f93ff00" layoutX="620.0" layoutY="158.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1f93ff00" layoutX="1180.0" layoutY="158.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <CubicCurve controlX1="-5.0" controlX2="5.0" controlY1="-20.0" controlY2="20.0" endX="5.0" fill="#1f93ff01" layoutX="1180.0" layoutY="158.0" startX="-5.0" stroke="BLACK" />
+            <Circle fill="#1f93ff00" layoutX="1290.0" layoutY="162.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1f93ff00" layoutX="1290.0" layoutY="154.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Line endX="170.0" layoutX="36.0" layoutY="516.0" />
+            <Line endX="30.0" layoutX="20.0" layoutY="531.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="60.0" layoutY="531.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="100.0" layoutY="531.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="145.0" layoutY="531.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="190.0" layoutY="531.0" rotate="90.0" />
+            <Pane fx:id="controller1" layoutX="22.0" layoutY="612.0">
+               <children>
+                  <Pane layoutX="125.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="80.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="170.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="40.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="apfc1" layoutX="23.0" layoutY="547.0">
+               <children>
+                  <Pane layoutX="80.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="125.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="40.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="170.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+               </children>
+            </Pane>
+            <Line endX="30.0" layoutX="20.0" layoutY="596.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="60.0" layoutY="596.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="100.0" layoutY="596.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="145.0" layoutY="596.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="190.0" layoutY="596.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="20.0" layoutY="661.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="60.0" layoutY="661.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="190.0" layoutY="661.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="145.0" layoutY="661.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="100.0" layoutY="661.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1520.0" layoutY="418.0" rotate="90.0" />
+            <Line endX="50.0" layoutX="1520.0" layoutY="333.0" rotate="90.0" />
+            <Pane fx:id="apfc3" layoutX="797.0" layoutY="542.0">
+               <children>
+                  <Pane layoutX="125.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane fx:id="checkIt" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="80.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="40.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="170.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+               </children>
+            </Pane>
+            <Line endX="30.0" layoutX="875.0" layoutY="656.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="920.0" layoutY="656.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="965.0" layoutY="656.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="835.0" layoutY="656.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="795.0" layoutY="656.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="965.0" layoutY="591.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="920.0" layoutY="591.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="875.0" layoutY="591.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="835.0" layoutY="591.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="795.0" layoutY="591.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="965.0" layoutY="526.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="920.0" layoutY="526.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="875.0" layoutY="526.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="835.0" layoutY="526.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="795.0" layoutY="526.0" rotate="90.0" />
+            <Line endX="170.0" layoutX="811.0" layoutY="511.0" />
+            <Line endX="120.0" layoutX="750.0" layoutY="451.0" rotate="90.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Line>
+            <Line endX="120.0" layoutX="1075.0" layoutY="451.0" rotate="90.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Line>
+            <Line endX="170.0" layoutX="1136.0" layoutY="511.0" />
+            <Line endX="30.0" layoutX="1120.0" layoutY="526.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1160.0" layoutY="526.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1200.0" layoutY="526.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1245.0" layoutY="526.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1290.0" layoutY="526.0" rotate="90.0" />
+            <Pane fx:id="controller2" layoutX="1122.0" layoutY="607.0">
+               <children>
+                  <Pane layoutX="80.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="125.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="40.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="170.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="apfc2" layoutX="1122.0" layoutY="542.0">
+               <children>
+                  <Pane prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="170.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="40.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="80.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+                  <Pane layoutX="125.0" prefHeight="35.0" prefWidth="26.0" styleClass="cb">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Pane>
+               </children>
+            </Pane>
+            <Line endX="30.0" layoutX="1120.0" layoutY="591.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1160.0" layoutY="591.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1200.0" layoutY="591.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1245.0" layoutY="591.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1290.0" layoutY="591.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1120.0" layoutY="656.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1160.0" layoutY="656.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1290.0" layoutY="656.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1245.0" layoutY="656.0" rotate="90.0" />
+            <Line endX="30.0" layoutX="1200.0" layoutY="656.0" rotate="90.0" />
+            <Pane layoutX="1062.0" layoutY="287.0" prefHeight="29.0" prefWidth="47.0" styleClass="busCoupler" />
+            <Pane layoutX="460.0" layoutY="286.0" prefHeight="29.0" prefWidth="47.0" styleClass="busCoupler" />
+            <Pane layoutX="754.0" layoutY="289.0" prefHeight="23.0" prefWidth="42.0" styleClass="busCoupler" />
+            <Label layoutX="70.0" layoutY="456.0" text="AI" />
+            <Label layoutX="109.0" layoutY="456.0" text="BI" />
+            <Label layoutX="155.0" layoutY="456.0" text="CI" />
+            <Label layoutX="199.0" layoutY="456.0" text="DI" />
+            <Label layoutX="244.0" layoutY="456.0" text="EI" />
+            <Label layoutX="289.0" layoutY="456.0" text="FI" />
+            <Label layoutX="335.0" layoutY="456.0" text="FI" />
+            <Label layoutX="380.0" layoutY="456.0" text="GI" />
+            <Label layoutX="425.0" layoutY="456.0" text="HI" />
+            <Label layoutX="519.0" layoutY="456.0" text="A III" />
+            <Label layoutX="565.0" layoutY="456.0" text="B III" />
+            <Label layoutX="610.0" layoutY="456.0" text="C III" />
+            <Label layoutX="654.0" layoutY="456.0" text="D III" />
+            <Label layoutX="700.0" layoutY="456.0" text="E III" />
+            <Label layoutX="845.0" layoutY="456.0" text="F III" />
+            <Label layoutX="889.0" layoutY="456.0" text="G III" />
+            <Label layoutX="934.0" layoutY="456.0" text="H III" />
+            <Label layoutX="981.0" layoutY="456.0" text="I III" />
+            <Label layoutX="1023.0" layoutY="456.0" text="J III" />
+            <Label layoutX="1175.0" layoutY="456.0" text="A II" />
+            <Label layoutX="1220.0" layoutY="456.0" text="B II" />
+            <Label layoutX="1266.0" layoutY="456.0" text="C II" />
+            <Label layoutX="1310.0" layoutY="456.0" text="D II" />
+            <Label layoutX="1355.0" layoutY="456.0" text="E II" />
+            <Label layoutX="1401.0" layoutY="456.0" text="F II" />
+            <Label layoutX="1445.0" layoutY="456.0" text="G II" />
+            <Label layoutX="1490.0" layoutY="456.0" text="H II" />
+            <Label layoutX="1541.0" layoutY="456.0" text="I II" />
+            <Pane layoutX="458.0" layoutY="287.0" prefHeight="29.0" prefWidth="47.0" styleClass="busCoupler" />
+            <Label layoutX="190.0" layoutY="100.0" prefHeight="41.0" prefWidth="87.0" text="Transformer" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="329.0" layoutY="105.0" prefHeight="30.0" prefWidth="37.0" text="DG I" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="599.0" layoutY="100.0" prefHeight="30.0" prefWidth="54.0" text="DG III" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="696.0" layoutY="94.0" prefHeight="41.0" prefWidth="87.0" text="Transformer" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1248.0" layoutY="100.0" prefHeight="41.0" prefWidth="87.0" text="Transformer" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1161.0" layoutY="105.0" prefHeight="30.0" prefWidth="37.0" text="DG II" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="45.0" layoutY="496.0" text="APFC">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="935.0" layoutY="480.0" text="APFC">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1259.0" layoutY="480.0" text="APFC">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Pane fx:id="controller3" layoutX="798.0" layoutY="607.0">
+               <children>
+                  <Pane layoutX="125.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane fx:id="checkIt1" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="80.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="40.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <Pane layoutX="170.0" prefHeight="35.0" prefWidth="26.0" styleClass="apfc">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+               </children>
+            </Pane>
+            
+            <TableView fx:id="ftag1" layoutX="2.0" layoutY="739.0" prefHeight="179.0" prefWidth="376.0">
+            <columns>
+                <TableColumn fx:id="tag1" prefWidth="133.0" text="TAG" />
+                <TableColumn fx:id="discription1" prefWidth="240.0" text="Description" />
+            </columns>
+            </TableView>
+      
+            <TableView fx:id="ftag2" layoutX="381.0" layoutY="738.0" prefHeight="181.0" prefWidth="387.0">
+               <columns>
+                  <TableColumn fx:id="tag2" prefWidth="95.0" text="TAG" />
+                  <TableColumn fx:id="discription2" prefWidth="290.0" text="Description" />
+               </columns>
+            </TableView>
+
+            <TableView fx:id="ftag3" layoutX="770.0" layoutY="738.0" prefHeight="182.0" prefWidth="391.0">
+               <columns>
+                  <TableColumn fx:id="tag3" prefWidth="102.0" text="TAG" />
+                  <TableColumn fx:id="discription3" prefWidth="285.0" text="Description" />
+               </columns>
+            </TableView>
+
+            <TableView fx:id="ftag4" layoutX="1166.0" layoutY="739.0" prefHeight="181.0" prefWidth="401.0">
+               <columns>
+                  <TableColumn fx:id="tag4" prefWidth="86.0" text="TAG" />
+                  <TableColumn fx:id="discription4" prefWidth="312.0" text="Description" />
+               </columns>
+            </TableView>
+            <Button fx:id="showFile" layoutX="543.0" layoutY="568.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="100.0" text="Data File" />
+            <Label layoutX="447.0" layoutY="565.0" prefHeight="27.0" prefWidth="46.0" text="ON" />
+            <Label layoutX="447.0" layoutY="609.0" prefHeight="27.0" prefWidth="46.0" text="OFF" />
+            <ImageView fitHeight="29.0" fitWidth="53.0" layoutX="365.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../green.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="29.0" fitWidth="53.0" layoutX="365.0" layoutY="608.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../red.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="461.0" layoutY="57.0" prefHeight="47.0" prefWidth="649.0" text="Programmable Logic Control and Supervisory Control and Data Acquisition">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="636.0" layoutY="24.0" prefHeight="37.0" prefWidth="345.0" text="PLC and SCADA Interfacing Application">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
