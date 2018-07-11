@@ -1,4 +1,4 @@
-# PLC-SCADA
+# PLC-SCADA INTERFACING APPLICATION 
 ## Problem Statement :
 To develop SCADA software to control all the feeders through PC and display the parameters in graphical format.
 	
@@ -10,7 +10,6 @@ To develop SCADA software to control all the feeders through PC and display the 
 5. PLC and SCADA system will monitor, store and retrieve information from the database and based on its program, it will access electrical power system remotely.
 6. It will provide GUI to control the system.
 	
-
 ## Objective : 
 1. To fetch and monitor parameters of each feeders from PC.
 2. To design an application and database for PLC SCADA system.
