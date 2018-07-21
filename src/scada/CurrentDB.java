@@ -27,7 +27,7 @@ public class CurrentDB {
     
             Statement stmt = con.createStatement();
             
-            String queryString = "CREATE TABLE IF NOT EXISTS currentData(id INT PRIMARY KEY , tag VARCHAR(5), description VARCHAR(50), status VARCHAR(5)";
+            String queryString = "CREATE TABLE IF NOT EXISTS currentData(id INT PRIMARY KEY , tag VARCHAR(5), description VARCHAR(50), status VARCHAR(5))";
             queryString +=", vry REAL, vyb REAL,vrb REAL,vrn REAL,vyn REAL,vbn REAL";
             queryString +=", ir REAL,iy REAL,ib REAL";
             queryString += ", pr REAL, py REAL, pb REAL";
